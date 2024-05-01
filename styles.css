@@ -106,11 +106,15 @@ p {
     padding-bottom: 0.5rem;
 }
 
+.preparation-list li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
 
 .preparation-list li span{
     font-weight: bold;
     padding-left: 1rem;
-    
+    color:hsl(30, 10%, 34%);
 }
 
 .ingredients-container {
@@ -118,6 +122,8 @@ p {
     justify-content: flex-start;
     flex-direction: column;
     width: 90%;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid hsl(30, 18%, 87%, 0.8);
 }
 
 .ingredients-list {
@@ -131,4 +137,7 @@ p {
     font-size: 14px;
 }
 
+.ingredients-list li::marker {
+    color: hsl(30, 10%, 34%);
+}
 
