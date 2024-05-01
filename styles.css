@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+
+
+html{
+    background-color: hsl(30, 54%, 90%);
+    
+}
+
+body {
+    margin-top: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    min-height: 100vh;
+  }
+h1 {
+  font-family: Young Serif, sans-serif;
+  -webkit-font-smoothing: antialiased; /* for Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale; /* for Firefox */
+  text-rendering: optimizeLegibility;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+p {
+    font-family: Outfit, sans-serif;
+    font-size: 16px;
+}
+
+.mutual-titles {
+    color: hsl(14, 45%, 36%);
+    height: 1.5vh;
+    font-weight: 400;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f5f5f5;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  object-fit: cover;
+  margin-top: 2.5rem;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.image-container h1 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: hsl(24, 5%, 18%);
+}
+
+.recipe-title {
+  align-self: flex-start;
+}
+
+.recipe-desc {
+    align-self: flex-start;
+}
+
+
+.recipe-container {
+    display:flex;
+    justify-content: flex-start;
+    width: 90%;
+    background-color: hsl(330, 100%, 98%, 0.9);
+    border: solid 0.1rem hsl(330, 100%, 98%, 0.9);
+    border-radius: 1rem;
+    flex-direction: column;
+}
+
+.preparation-list {
+    height: 100%;
+    margin-left: 0;
+}
+
+.prep-time {
+    font-family: Outfit, sans-serif;
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    padding-left: 1.1rem;
+    height: 1.5vh;
+}
+
+.preparation-list li {
+    margin: 0 auto;
+    margin-left: 0;
+    font-family: Outfit, sans-serif;
+    padding-bottom: 0.5rem;
+}
+
+
+.preparation-list li span{
+    font-weight: bold;
+    padding-left: 1rem;
+    
+}
+
+.ingredients-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+}
+
+.ingredients-list {
+    padding-left: 1.1rem;
+    font-family: Outfit, sans-serif;
+}
+
+.ingredients-list li span {
+    padding-left: 1.3rem;
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+}
+
+
