@@ -8,11 +8,11 @@ html{
 }
 
 body {
-    margin-top: 0;
-    width: 80vw;
+    
+    width: 70vw;
     box-sizing: border-box;
     min-height: 100vh;
-    margin: 0 auto;
+    margin: 1rem auto;
   }
 h1 {
   font-family: Young Serif, sans-serif;
@@ -45,6 +45,7 @@ p {
   width: 80%;
   margin: 0 auto;
   background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
 }
 
 .image-container {
@@ -70,6 +71,7 @@ p {
 }
 
 .recipe-title {
+    padding-top: 1.5rem;
   align-self: flex-start;
 }
 
@@ -174,7 +176,7 @@ p {
     margin: 0 auto;
     margin-left: 0;
     font-family: Outfit, sans-serif;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.7rem;
     padding-left: 1.3rem;
     color:hsl(30, 10%, 34%);
 }
