@@ -9,9 +9,10 @@ html{
 
 body {
     margin-top: 0;
-    width: 100vw;
+    width: 80vw;
     box-sizing: border-box;
     min-height: 100vh;
+    margin: 0 auto;
   }
 h1 {
   font-family: Young Serif, sans-serif;
@@ -31,6 +32,7 @@ p {
     color: hsl(14, 45%, 36%);
     height: 1.5vh;
     font-weight: 400;
+    margin-bottom: 2rem;
 }
 
 .container {
@@ -84,6 +86,7 @@ p {
     border: solid 0.1rem hsl(330, 100%, 98%, 0.9);
     border-radius: 1rem;
     flex-direction: column;
+    margin-top: 1rem;
 }
 
 .preparation-list {
@@ -123,12 +126,20 @@ p {
     flex-direction: column;
     width: 90%;
     padding-bottom: 1rem;
-    border-bottom: 2px solid hsl(30, 18%, 87%, 0.8);
+    border-bottom: 2px solid hsl(30, 18%, 87%);
 }
 
 .ingredients-list {
     padding-left: 1.1rem;
     font-family: Outfit, sans-serif;
+}
+
+.ingredients-list li {
+    margin: 0 auto;
+    margin-left: 0;
+    padding-bottom: 0.5rem;
+    color:hsl(30, 10%, 34%);
+
 }
 
 .ingredients-list li span {
@@ -141,3 +152,78 @@ p {
     color: hsl(30, 10%, 34%);
 }
 
+.instructions-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    padding-bottom: 1rem;
+}
+
+.instructions-list li span {
+    font-weight: bold;
+}
+
+.instructions-list {
+    list-style: decimal;
+    padding-left: 1.1rem;
+}
+
+.instructions-list li {
+    margin: 0 auto;
+    margin-left: 0;
+    font-family: Outfit, sans-serif;
+    padding-bottom: 0.5rem;
+    padding-left: 1.3rem;
+    color:hsl(30, 10%, 34%);
+}
+
+.instructions-list li::marker {
+    color: hsl(30, 10%, 34%);
+    font-family: Outfit, sans-serif;
+    font-weight: bold;
+}
+
+.nutrition-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+}
+
+.nutrition-container p {
+    color:hsl(30, 10%, 34%);
+   
+}
+
+.nutrition-row {
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    
+}
+
+.nutrition-row td {
+    padding-bottom: 0.8rem;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-family: Outfit, sans-serif;
+}
+
+.nutrition-row:last-child {
+    border-bottom: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-key {
+    color:hsl(30, 10%, 34%);
+}
+
+.table-value {
+    font-weight: bold;
+    color:hsl(14, 45%, 36%);
+}
